@@ -13,3 +13,9 @@ const cekHariKerja = (day) => {
         }, 3000)
     })
 }
+
+cekHariKerja('Sabtu').then((result) => {
+    console.log(`Hari ${result} hari kerja`)
+}).catch((error) => {
+    console.log(error.message)
+})
