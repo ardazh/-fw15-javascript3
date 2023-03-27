@@ -1,6 +1,7 @@
 const getMonth = (callback) => {
     setTimeout(() => {
         let error = false
+        // let error = true //untuk menampilkan error, karena kondisi error true maka akan di jalankan
         let month = ['Januari', 'Februari', 'Maret', 'April',
                     'Mei', 'Juni', 'Juli', 'Agustus', 'September',
                     'Oktober', 'November', 'Desember']

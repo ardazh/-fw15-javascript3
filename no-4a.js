@@ -14,7 +14,7 @@ const cekBarang = (stock) => {
     })
 }
 
-cekBarang('Pensil').then((result) => {
+cekBarang('Sepatu').then((result) => {
     console.log(`Stock ${result} Ada`)
 }).catch((error) => {
     console.log(error.message)
